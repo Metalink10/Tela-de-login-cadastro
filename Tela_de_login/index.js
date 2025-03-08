@@ -17,11 +17,9 @@ btn.addEventListener("click", (e) => {
     senha: "",
   };
 
-  listaUser = JSON.parse(
-    localStorage.getItem(
-      "https://tela-de-cadastro-git-main-metalink10s-projects.vercel.app",
-      
-    )
+   fetch("https://cadastre-se-git-main-metalink10s-projects.vercel.app")
+.then(Response => Response.json())
+.then(result => console.log(result));
   );
   console.log(listaUser)
 
