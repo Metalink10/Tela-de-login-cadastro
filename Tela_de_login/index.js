@@ -19,7 +19,7 @@ btn.addEventListener("click", (e) => {
 
    fetch(https://cadastre-se-git-main-metalink10s-projects.vercel.app/")
   .then(Response => Response.json())
-         console.log(Result)
+         console.log(Response)
   //.then(result => console.log(result));
   );
  
