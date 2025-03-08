@@ -17,7 +17,7 @@ btn.addEventListener("click", (e) => {
     senha: "",
   };
 
-   fetch("https://cadastre-se-git-main-metalink10s-projects.vercel.app/")
+   fetch("http://127.0.0.1:5502/index.html")
   .then(Response => Response.json())
   .then(result => console.log(result));
   );
